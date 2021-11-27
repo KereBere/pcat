@@ -37,3 +37,7 @@ Update the data
 `db.photos.updateOnt({title : "Photo 1", {$set:{qty: 222}})`
 Delete the data
 `db.photos.deleOne({qty: {$lt: 500}})` Delete qty less than 500
+
+### Mongoose
+
+Mongoose bir ODM dir. Object Document Mapper. 
