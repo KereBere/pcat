@@ -10,17 +10,20 @@ const app = express();
 //const password = 't.yJiDVbPEP7Aa:';
 
 // * CONNECT DB
-mongoose.connect(
-  'mongodb+srv://ali:<password_here>.@cluster0.flqid.mongodb.net/pcat-db?retryWrites=true&w=majority',
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-).then(()=> {
-  console.log('DB Connected!')
-}).catch((err)=> {
-  console.log(err)
-})
+mongoose
+  .connect(
+    'mongodb+srv://ali:<2153401Ali.>.@cluster0.flqid.mongodb.net/pcat-db?retryWrites=true&w=majority',
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  )
+  .then(() => {
+    console.log('DB Connected!');
+  })
+  .catch((err) => {
+    console.log(err);
+  });
 
 // * TEMPLATE ENGİNE
 app.set('view engine', 'ejs');
