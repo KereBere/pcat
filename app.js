@@ -11,7 +11,7 @@ const app = express();
 
 // * CONNECT DB
 mongoose.connect(
-  'mongodb+srv://ali:2153401Ali.@cluster0.flqid.mongodb.net/pcat-db?retryWrites=true&w=majority',
+  'mongodb+srv://ali:<password_here>.@cluster0.flqid.mongodb.net/pcat-db?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
