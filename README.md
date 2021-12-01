@@ -41,3 +41,7 @@ Delete the data
 ### Mongoose
 
 Mongoose bir ODM dir. Object Document Mapper. 
+
+### Heroku
+Below in branchName send your either main or master branch. It is either main or master. Of course do this after you configured your heroku login etc. 
+`git push heroku <branchName>` 
